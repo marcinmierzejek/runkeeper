@@ -14,4 +14,4 @@ stats_by_months <- aggregate(x = acts[, c("pace")], by = list(month = acts$month
 stats_by_months
 # plot(stats_by_months$month, stats_by_months$x)
 plot(stats_by_months$x)
-axis(1, labels = stats_by_months$month)
+axis(1, labels = stats_by_months$month)   222
